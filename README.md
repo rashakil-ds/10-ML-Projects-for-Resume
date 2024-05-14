@@ -1,6 +1,3 @@
-Certainly! Here's the README file in HTML format for the "10 ML Projects for Resume" repository:
-
-```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,6 +36,3 @@ Certainly! Here's the README file in HTML format for the "10 ML Projects for Res
   </footer>
 </body>
 </html>
-```
-
-This HTML format covers the repository information, additional resources, and includes the footer with links to the paid course website, YouTube channel, and Facebook group.
