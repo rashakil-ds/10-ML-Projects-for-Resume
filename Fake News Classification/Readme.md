@@ -32,7 +32,9 @@ This project implements an end-to-end **text classification pipeline** to classi
 | `title` | Small title |
 | `text` | Raw text content |
 | `label` | 0 = Fake, 1 = Real |
+
 The dataset was cleaned, null values replaced, and text normalized.
+
 ---
 ## Text Preprocessing Steps
 1. Remove punctuation  
