@@ -4,11 +4,11 @@ This project implements an end-to-end **text classification pipeline** to classi
 It includes dataset exploration, preprocessing, TF-IDF vectorization, multiple model training, evaluation, and a production-ready prediction system with model + vectorizer saving.
 ---
 ## Project Overview
-### ✔ Steps Completed
+### Steps
 - Exploratory Data Analysis (EDA)
 - Text cleaning and preprocessing
 - Lemmatization using WordNetLemmatizer
-- Train–test split (with **no data leakage**)
+- Train–test split 70% and 30%
 - TF-IDF vectorization on training data only
 - Model training:
   - Multinomial Naive Bayes
@@ -29,36 +29,25 @@ It includes dataset exploration, preprocessing, TF-IDF vectorization, multiple m
 |--------|-------------|
 | `text` | Raw text content |
 | `label` | 0 = Fake, 1 = Real |
-
 The dataset was cleaned, null values replaced, and text normalized.
-
 ---
-
 ## Text Preprocessing Steps
-
 1. Remove punctuation  
 2. Remove stopwords  
 3. Convert text to lowercase  
 4. Tokenize  
 5. Lemmatize each token  
 6. Reconstruct cleaned text
-
 This ensures the model trains on high-quality and normalized input.
-
 ---
-
 ## Model Training
-
 Three models were trained and evaluated:
-
 - **Multinomial Naive Bayes (MNB)**
 - **Bernoulli Naive Bayes (BNB)**
 - **Logistic Regression (LR)** ← Best performing
 
 TF-IDF vectorization was applied **only on training data** to avoid data leakage.
-
 Performance was compared using:
-
 - Accuracy
 - Confusion Matrix
 - Classification Report
@@ -68,7 +57,7 @@ Performance was compared using:
 
 ## Best Model
 
-✔ **Logistic Regression** achieved the highest performance and generalization capability.  
+**Logistic Regression** achieved the highest performance and generalization capability.  
 This model was selected for production use.
 
 ---
