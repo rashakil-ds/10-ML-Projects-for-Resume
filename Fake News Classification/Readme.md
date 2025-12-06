@@ -1,5 +1,5 @@
 
-# Fake vs Real News Classification (NLP + TF-IDF + Logistic Regression)
+# Click -> [Fake vs Real News Classification App](https://fake-news-checker-ai.streamlit.app/)
 
 This project implements an end-to-end **text classification pipeline** to classify text as **Fake (0)** or **Real (1)** using traditional Machine Learning techniques and clean NLP preprocessing. It includes dataset exploration, preprocessing, TF-IDF vectorization, multiple model training, evaluation, and a production-ready prediction system with model + vectorizer saving.
 
