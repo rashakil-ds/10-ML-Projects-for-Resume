@@ -25,10 +25,11 @@ This project implements an end-to-end **text classification pipeline** to classi
 ---
 ## Dataset
 
-[The dataset](https://www.kaggle.com/datasets/studymart/welfake-dataset-for-fake-news) contains two columns:
+[The dataset](https://www.kaggle.com/datasets/studymart/welfake-dataset-for-fake-news) contains three columns:
 
 | Column | Description |
 |--------|-------------|
+| `title` | Small title |
 | `text` | Raw text content |
 | `label` | 0 = Fake, 1 = Real |
 The dataset was cleaned, null values replaced, and text normalized.
